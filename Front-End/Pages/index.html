@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>BookMart </title>
+</head>
+<body>
+    <div class="navBar">
+        <span class = "title">
+            <h2>Book<span class="highlight">Mart</span></h2>
+        </span>
+        <input type="text" class="search-bar" placeholder="Search your book, bookstore"/>
+            <div class="nav-links">
+                <select id="genres" name="genres" class="transperant-bttn" >
+                    <option value="" disabled selected>Genres</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="novels">Novels</option>
+                    <option value="history">History</option>
+                </select>
+                <a href="./Login.html" class="transperant-bttn">Log In</a>
+                <a href="./RegisterPage.html" class="transperant-bttn">Sign In</a>
+            </div>
+    </div>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="./CSS/Images/ad banner 1.jpg" alt="Ad Banner 1" class="slider-image"/>
+            <img src="./CSS/Images/ad banner 2.jpg" alt="Ad Banner 2" class="slider-image"/>
+            <img src="./CSS/Images/ad banner 3.jpg" alt="Ad Banner 3" class="slider-image"/>
+            
+        </div>
+        <button class="slider-prev">&lt;</button>
+        <button class="slider-next">&gt;</button>
+    </div>
+
+    <div class="container">
+        <br>
+        <br>
+        <center>             
+        <h1>New Arrivals</h1>
+        <br><br>
+        <div class="carousel">
+            <button class="prev">&lt;</button>
+            <div class="book-cards">
+                <div class="book-card">
+                    <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                    <p>Harry Potter and the cursed child</p>
+                    <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                    <br>
+                </div>
+                <div class="book-card">
+                    <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                    <p>Harry Potter and the cursed child</p>
+                    <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                    <br>
+                </div>
+                <div class="book-card">
+                    <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                    <p>Harry Potter and the cursed child</p>
+                    <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                    <br>
+                </div>
+                <div class="book-card">
+                    <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                    <p>Harry Potter and the cursed child</p>
+                    <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                    <br>
+                </div>
+                <div class="book-card">
+                    <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                    <p>Harry Potter and the cursed child</p>
+                    <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                    <br>
+                </div>
+                <div class="book-card">
+                    <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                    <p>Harry Potter and the cursed child</p>
+                    <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                    <br>
+                </div>
+                <div class="book-card">
+                    <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                    <p>Harry Potter and the cursed child</p>
+                    <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                    <br>
+                </div>
+                
+            </div>
+            <button class="next">&gt;</button>
+        </div>
+        <br>
+        <br>
+
+        <h1>Best Seller's</h1>
+        <br><br>
+
+        <nav class="tabs">
+            <button class="tab-button active first-child" onclick="showTab('fiction')">Fiction</button>
+            <button class="tab-button" onclick="showTab('history')">History</button>
+            <button class="tab-button last-child" onclick="showTab('novel')">Novel</button>
+            <button class="tab-button" onclick="showTab('romance')">Romance</button>
+            <button class="tab-button last-child" onclick="showTab('mystrey')">Mystrey</button>
+            <button class="tab-button last-child" onclick="showTab('horror')">Horror</button>
+            <button class="tab-button" onclick="showTab('young-adult')">Young-Adult</button>
+            <button class="tab-button last-child" onclick="showTab('sci-fi')">Sci-fi</button>
+            <button class="tab-button last-child" onclick="showTab('crime')">Crime</button>
+        </nav>
+
+        <div class="tab-content" id="fiction">
+            <div class="carousel">
+                <button class="prev">&lt;</button>
+                <div class="book-cards">
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    
+                </div>
+                <button class="next">&gt;</button>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="novel" style="display: none;">
+            <div class="carousel">
+                <button class="prev">&lt;</button>
+                <div class="book-cards">
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Ha</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    
+                </div>
+                <button class="next">&gt;</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="history" style="display: none;">
+            <div class="carousel">
+                <button class="prev">&lt;</button>
+                <div class="book-cards">
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>The cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    <div class="book-card">
+                        <img src="./CSS/Images/book cover images/Harry_Potter_and_the_Cursed_Child_Special_Rehearsal_Edition_Book_Cover.jpg" alt="Harry Potter and the Cursed Child">
+                        <p>Harry Potter and the cursed child</p>
+                        <p class="price"><span class="old-price">Rs. 2800</span><br> Rs. 2300</p>
+                        <br>
+                    </div>
+                    
+                </div>
+                <button class="next">&gt;</button>
+            </div>
+        </div>
+        
+        <br><br>
+        <h1>Articles</h1>
+        <br><br>
+        </center>
+
+        <div class="article-card">
+            <div class="article-content">
+                <h2>Title of the article</h2>
+                <p>small description about the article..........................................................
+                ..........................................................</p>
+                <i><small>By author's name | date</small></i>
+            </div>
+            <img src="#" alt="Placeholder Image">
+        </div>
+
+        <div class="article-card">
+            <div class="article-content">
+                <h2>Title of the article</h2>
+                <p>small description about the article..........................................................
+                ..........................................................</p>
+                <i><small>By author's name | date</small></i>
+            </div>
+            <img src="#" alt="Placeholder Image">
+        </div>
+
+        <div class="login-link">
+            <a href="./Login.html">Log in to see more</a>
+        </div>
+        <br><br>
+    </div>
+
+    <div class="footer">
+        <div class="links">
+            <a href="./contactUs.html">Contact Us</a><br><br>
+            <a href="./aboutUs.html">About Us</a>
+        </div>
+        <br>
+        <div class="copyright">
+            &copy; 2024 BookMart. All rights reserved.
+        </div>
+    </div>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
