@@ -50,11 +50,11 @@ body{
 }
 .transperant-bttn{
     cursor: pointer;
-    margin-right: 30px;
+    margin-right: 5px;
     padding: 10px;
     color: #ffffff;
     background: #02224E;
-    font-size: 0.9em;
+    font-size: 0.8em;
     border: none;
     text-decoration: none;
 }
@@ -70,7 +70,7 @@ body{
 }
 
 .nav-links{
-    row-gap: 10px;
+    gap: 10px;
 }
 
 .slider-container {

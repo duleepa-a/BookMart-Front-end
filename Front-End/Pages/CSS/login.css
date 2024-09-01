@@ -111,6 +111,14 @@ body{
     margin-left: 10%;
 }
 
+.login-text a{
+  color: #BE5715;
+  text-decoration: none;
+}
+.login-text a:hover{
+  text-decoration: underline;
+}
+
 .login-form-container {
     margin-top: 25%;
     max-width: 80%;
